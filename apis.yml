@@ -1,8 +1,12 @@
 aid: brightgo
 name: BrightGo
-description: 'BrightGo is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: business-applications. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'BrightGo is an all-in-one janitorial and commercial-cleaning ERP platform for building
+  service contractors. It unifies field operations, workforce management, and back-office finance in one
+  system: scheduling, GPS-verified time and attendance, inspections and quality assurance, real-time job
+  costing, payroll, and accounting, plus operations business-intelligence dashboards and an in-app employee
+  communication portal. Backed by Index Ventures and Costanoa Ventures, BrightGo serves janitorial companies
+  across the U.S. and Canada. No public developer API or documentation surface has been identified; the
+  product is delivered via web (app.brightgo.com) and iOS/Android mobile apps.'
 url: https://raw.githubusercontent.com/api-evangelist/brightgo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,31 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6544c109899aa5013e366a9f/67224b4fa98b7855bab10e34_Logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Business Applications
+- ERP
+- Janitorial Services
+- Field Service Management
+- Workforce Management
+- Facilities Maintenance
+- Payroll
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.brightgo.com/
+- type: Product
+  url: https://www.brightgo.com/product
+- type: About
+  url: https://www.brightgo.com/company
+- type: Blog
+  url: https://www.brightgo.com/blog
+- type: PrivacyPolicy
+  url: https://www.brightgo.com/privacy-policy
+- type: SignUp
+  url: https://www.brightgo.com/get-a-demo
+- type: Login
+  url: https://app.brightgo.com/
+- type: Twitter
+  url: https://twitter.com/BrightGoInc
+- type: LinkedIn
+  url: https://www.linkedin.com/company/brightgo
+- type: AppStore
+  url: https://apps.apple.com/ca/app/brightgo/id6446709154
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.brightgoproject
+- type: DomainSecurity
+  url: security/brightgo-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
